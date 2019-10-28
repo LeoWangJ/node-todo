@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "node-todo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoWangJ/node-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoWangJ/node-todo/issues"
+  },
+  "homepage": "https://github.com/LeoWangJ/node-todo#readme",
+  "dependencies": {
+    "commander": "^3.0.2"
+  }
+}
