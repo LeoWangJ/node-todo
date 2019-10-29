@@ -12,7 +12,12 @@ program
 program
     .command('clear')
     .description('clear all tasks')
-    .action((...args) => {
-        console.log('clear')
+    .action(() => {
+        api.clear()
     });
 program.parse(process.argv);
+
+
+if (process.argv.length === 2) {
+    api.showAll()
+}
