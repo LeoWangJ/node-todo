@@ -1,6 +1,12 @@
 {
-  "name": "todo",
-  "version": "1.0.0",
+  "name": "node-daily-todo",
+  "version": "0.0.1",
+  "bin": {
+    "t": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
   "description": "node-todo",
   "main": "index.js",
   "scripts": {
@@ -17,6 +23,7 @@
   },
   "homepage": "https://github.com/LeoWangJ/node-todo#readme",
   "dependencies": {
-    "commander": "^3.0.2"
+    "commander": "^3.0.2",
+    "inquirer": "^7.0.0"
   }
 }
